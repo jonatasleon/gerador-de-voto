@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="gerador">
+    <head>
+        <meta charset="utf-8">
+        <title>Gerador de votos</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controller/geradorCtrl.js"></script>
+    </head>
+    <body ng-controller="GeradorCtrl">
+        <div class="frase">
+            <h1>{{frase}}</h1>
+            <input type="button" value="Gerar" ng-click="gerarFrase()" />
+        </div>
+    </body>
+</html>

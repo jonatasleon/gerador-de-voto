@@ -1,0 +1,21 @@
+{
+  "name": "gerador-de-votos",
+  "authors": [
+    "Jonatas Leon <jonatas.leon@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.4"
+  }
+}
