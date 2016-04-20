@@ -1,0 +1,30 @@
+{
+  "name": "gerador-de-votos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatasleon/gerador-de-voto.git"
+  },
+  "keywords": [
+    "gerador",
+    "votos",
+    "impeachment"
+  ],
+  "author": "Jonatas Leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatasleon/gerador-de-voto/issues"
+  },
+  "homepage": "http://jonatasleon.com/gerador-de-voto",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}

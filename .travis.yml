@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+branches:
+    only: master
+before_script:
+- npm install -g gulp bower
+- npm install
+- bower install
+script: bash ./deploy.sh
+env:
+    global:
+    - GH_REF: github.com/jonatasleon/gerador-de-voto
+    - secure: "hHqGCJd1EC0apKI3fYY4KGJC4rRdcRcitXtLxmA/jV+y3KKX9kmvWIGIlyYECtuQQDqWg7JFPZYZoPoY0mXNzQ7wF3eD4ZgG5v9UXKBwUWtHoo1iLq1/1Dt+RY120hw2kaC6hLWZWoc9zsImWjSz2srqYSoaPfyWJEZ7v7cXoStFoaBfTT+lsU3PSWkKQVA6fa6Gq1emWvHf+/ks4+Y0k+u4+bTiQ1MqV50Hg+t/am/wNRM+CQIFplzyfr2LmRDe2cHwE9vfOFpjx9d+SjZMm91jGqMBZKGU0ITDokABm3OFONrjwHHvEUTpnP+ir3c6SdZs2sGtzLHsiTezUEMuogEYtVCQRGTb1PaVQdODDgKEcBIAsdsvkW7WqcxAz42qBdNdsZYXp7ngcZrUYc/xEHs1aICHTT0p6LfHUKakUQJ776PVy6apEs+mwkY6G9RmDuHscVMW68/r7A7itLuTDUpikKR7VnXOxvKD6w7vE5WZlXi6Y/lZAAky0c84tBK1hruT6O62Y3D0yYiHFAKMKezBWXWXXqWgKSzuDkefqw7hFuFgtDEFYdrtG4SsxPnuIx2Udtu1FVHxDaTF43IKQvJ0gCOdrYD1imdO9V40h9GlDO/f8zXL99BilDOKSXkmvxTsa8BixNYXFUKYOCH/NmUfPv5VKUaWUI/2hNGGOGw="
