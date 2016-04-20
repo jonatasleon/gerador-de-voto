@@ -6,7 +6,7 @@ rm -rf build || exit 0;
 mkdir build;
 
 # run our compile script, discussed above
-gulp make-build
+gulp
 
 # go to the build directory and create a *new* Git repo
 cd build
