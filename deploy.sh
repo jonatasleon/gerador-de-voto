@@ -27,4 +27,3 @@ git commit -m "Deploy to Github Pages"
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 echo "pushing..."
 git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages > /dev/null 2>&1
-echo "Finished"
