@@ -4,8 +4,8 @@ node_js:
 branches:
     only: master
 before_script:
-- npm install -g gulp bower
-- npm install
+- npm install -g gulp
+- npm install -g bower
 - bower install
 script: bash ./deploy.sh
 env:
