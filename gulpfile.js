@@ -25,7 +25,7 @@ gulp.task('copy-files', function() {
         './index.html',
         './frases.json',
         './.travis.yml',
-        './js/*', './css/*',
+        './js/**/*', './css/**/*',
         './bower_components/angular/angular.min.js'
     ];
 
