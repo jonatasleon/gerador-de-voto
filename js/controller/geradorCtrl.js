@@ -9,8 +9,7 @@ angular.module("gerador").controller("GeradorCtrl", ["$scope", "$http",
         $scope.gerarFrase = function() {
             var pessoa = quem[Math.floor(Math.random() * quem.length)];
 
-            var frase = "";
-            frase += ", eu voto " + ((Math.floor(Math.random() * 2) % 2 === 0) ? "SIM!" : "NÃO!");
+            var frase = pessoa + ", eu voto " + ((Math.floor(Math.random() * 2) % 2 === 0) ? "SIM!" : "NÃO!");
 
             $scope.frase = frase;
         };
