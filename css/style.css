@@ -1,0 +1,35 @@
+html body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #009B3A;
+}
+.frase {
+    width: 300px;
+    margin: 30px auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #FEDF00;
+}
+@media screen and (min-width: 640px) {
+    .frase {
+        width: 600px;
+        margin-top: 200px
+    }
+}
+@media screen and (min-width: 840px) {
+    .frase {
+        width: 800px;
+    }
+}
+.frase h1{
+    font-size: 2em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.frase input[type=button] {
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #002776;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(238,238,238);
+}
